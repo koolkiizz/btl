@@ -1,0 +1,8 @@
+h4, h5 {
+	text-align: left;
+}
+table tbody td {
+	text-align: left;
+	font-size: 18px;
+	max-width: 400px;
+}
