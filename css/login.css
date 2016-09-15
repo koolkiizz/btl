@@ -1,0 +1,66 @@
+.form-login {
+	width: 60%;
+	max-width: 500px;
+	margin:auto;
+	border-radius: 5px;
+	background: rgba(255,255,255,.6);
+	color: black;
+	padding: 20px 40px;
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+.form-login h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: black;
+	text-transform: uppercase;
+}
+.form-login .form-control {
+	font-size: 1em !important;
+}
+.form-login label {
+	text-align: center !important;
+	font-weight: 300;
+}
+.form-login .form-group {
+	padding: 10px 0;
+	-webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.form-login .form-group:hover {
+	background: rgba(0,0,0,.5); 
+	border-radius: 5px;
+	-webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.form-login .button {
+	border-radius: 25px;
+	background: #000;
+	border:none;
+	color: white;
+	font-weight: 300;
+	padding: 10px 30px;
+	-webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    margin:auto;
+    display: block;
+    text-transform: uppercase;
+}
+.form-login .button:hover {
+	background: rgba(0,0,0,.4);
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+    
+}

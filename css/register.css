@@ -1,0 +1,47 @@
+.form-left {
+	float: left;
+	width: 40%;
+	margin-right: 11%;
+	text-align: left;
+	z-index: 10;
+	position: relative;
+	min-height: 300px;
+}
+.form-left p, .form-right p {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.form-left label {
+	font-size: 20px;
+}
+.form-right {
+	float: right;
+	width: 49%;
+	text-align: left;
+	z-index: 10;
+	position: relative;
+	height: 300px;
+}
+.form-right label {
+	font-size: 20px;
+}
+.form-left input, .form-right input, .form-left textarea, .form-right select, .form-right li {
+	font-size: 16px !important;
+	font-weight: 400;
+	color: black !important;
+}
+.abcde {
+	font-size: 25px;
+
+}
+.form-left .select2-selection__rendered {
+	font-size: 16px !important;
+	font-weight: 400;
+	color: black !important;
+}
+.message {
+	width: 60%;
+	font-size: 16px;
+	margin:auto;
+	font-weight: 400;
+}
