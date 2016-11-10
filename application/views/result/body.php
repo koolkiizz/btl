@@ -18,13 +18,30 @@ $(document).ready(function() {
                             <div id="exercises">
                                 <h2 class="wow fadeInLeftBig subtitle">Danh sách đã đăng ký</h2>
                                 <div class="timer wow fadeInUp clearfix">
-                                    <?php $i = 0;
+                                    <?php
                                     foreach($datas as $data): ?>
                                         <?php if($data['gr_name'] != ''): ?>
-                                            <h5>Nhóm <?php echo $data['gr_name']; endif;?></h5>
-                                            <?php if($data['gr_des'] != ''): ?>
-                                            <h6><?php echo $data['gr_des']; endif;?></h6>
-                                        <?php 
+                                            <h4>Nhóm <?php echo $data['gr_name']; endif;?></h4>
+                                        <?php if($data['gr_des'] != ''): ?>
+                                            <h5><?php echo $data['gr_des']; endif;?></h5>
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                    <?php foreach($data['members'] as $member):
+                                                        echo $member->name.'<br>';
+                                                    endforeach;?>
+                                                    </td>
+                                                    <td>
+                                                    <?php echo $data['excercise'];?>
+                                                    </td>
+                                                    <td>
+                                                    <?php echo $data['registed'];?>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    <?php endforeach;?>
                                 </div>
                                 
                             </div>

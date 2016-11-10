@@ -3,6 +3,11 @@ class Register extends Seven_Controller
 {
 	public function index()
 	{
+		$this->load->model('M_Config');
+		if(strtotime($this->M_Config->get_time_start()) < strtotime("now"))
+		{
+			redirect(base_url());
+		}
 		$this->load->model("M_Students");
 		$this->load->model("M_Excercises");
 		$this->load->model("M_Groups");
