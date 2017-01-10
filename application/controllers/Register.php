@@ -4,7 +4,7 @@ class Register extends Seven_Controller
 	public function index()
 	{
 		$this->load->model('M_config');
-		if(strtotime($this->M_config->get_time_start()) < strtotime("now"))
+		if(strtotime($this->M_config->get_time_start()) > strtotime("now"))
 		{
 			redirect(base_url());
 		}
