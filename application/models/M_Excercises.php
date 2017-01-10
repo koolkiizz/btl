@@ -1,5 +1,5 @@
 <?php
-class M_Excercises extends CI_Model
+class M_excercises extends CI_Model
 {
 	public function getAll()
 	{

@@ -1,5 +1,5 @@
 <?php
-class M_Groups extends CI_Model
+class M_groups extends CI_Model
 {
 	public function getAll()
 	{

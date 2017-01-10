@@ -1,5 +1,5 @@
 <?php
-class M_Config extends CI_Model
+class M_config extends CI_Model
 {
 	public function get_time_start()
 	{
